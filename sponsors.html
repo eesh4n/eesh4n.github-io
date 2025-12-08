@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsors | Oakridge DECA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+      <div class="logo">
+          <a href="/"><img src="oakridge-deca-logo.png" alt="OAKRIDGE DECA Logo"></a>
+      </div>
+      <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/executives/">Executives</a></li>
+          <li><a href="/sponsors/">Sponsors</a></li>
+      </ul>
+  </nav>
+
+  
+
+<!-- Hero Section -->
+ 
+<section class="hero">
+    <img class="hero-img" src="decagroup.png" alt="DECA Group">
+    <div class="hero-overlay">
+        <h1>Sponsors</h1>
+    </div>
+</section>
+
+<section class="sponsors-section">
+    <h2 class="sponsors-title">Our Sponsors</h2>
+
+    <div class="two-sponsors">
+        <a href="https://insboutique.com/" target="_blank" class="sponsor-card">
+            <img src="logo.png" alt="Sponsor 1 Logo">
+        </a>
+
+        <a href="https://rev3k.com/" target="_blank" class="sponsor-card">
+            <img src="logo2.png" alt="Sponsor 2 Logo">
+        </a>
+    </div>
+</section>
+
+<section class="sponsors-hero">
+    <div class="sponsors-intro">
+        <h1>Why Oakridge DECA?</h1>
+        <p>Support future leaders in business, innovation, and community engagement. By partnering with us, you help students compete at regional, provincial, and international levels, while showcasing your commitment to education and youth development.</p>
+    </div>
+</section>
+
+<section class="sponsors-posters">
+    <div class="poster-card" onclick="openModal(this)">
+        <img src="spons2.jpg" alt="Sponsorship Tiers Poster" data-src="spons2.jpg">
+        <p>Who We Are & Why Support Us</p>
+    </div>
+    <div class="poster-card" onclick="openModal(this)">
+        <img src="spons1.png" alt="Who We Are Poster" data-src="spons1.png">
+        <p>Sponsorship Tiers & Benefits</p>
+    </div>
+</section>
+
+<!-- Modal for Image Popup -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<section class="sponsors-impact">
+    <div class="impact-card">
+        <h2>50+</h2>
+        <p>Active DECA Members</p>
+    </div>
+    <div class="impact-card">
+        <h2>2+</h2>
+        <p>Competitions Per Year</p>
+    </div>
+    <div class="impact-card">
+        <h2>15+</h2>
+        <p>Provincial Qualifiers</p>
+    </div>
+</section>
+
+<section class="sponsors-cta">
+    <p><strong>Interested in partnering with us? Reach out today! </strong></p>
+</section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div class="footer-col footer-logo">
+        <a href="/"><img src="oakridge-deca-logo.png" alt="Oakridge DECA logo" class="footer-logo-img"></a>
+        <p>Inspiring future leaders in business, marketing, and entrepreneurship.</p>
+      </div>
+
+      <div class="footer-col footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/executives/">Executives</a></li>
+          <li><a href="/sponsors/">Sponsors</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-contact">
+        <h4>Contact & Social</h4>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:oakridgedeca25@gmail.com">oakridgedeca25@gmail.com</a></p>
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/company/oakridgedeca/" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/oakridge_deca/" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://classroom.google.com/c/NzM3MzM5MDY3MjUz?cjc=yppzena4" target="_blank" class="social-icon classroom" title="Google Classroom"><i class="fab fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Oakridge DECA. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
