@@ -1,7 +1,7 @@
 function openModal(element) {
     const modal = document.getElementById('imageModal');
     const modalImg = document.getElementById('modalImg');
-    const imgSrc = element.querySelector('img').getAttribute('data-src');
+    const imgSrc = element.querySelector('img').src;
     modal.style.display = "block";
     modalImg.src = imgSrc;
 }
