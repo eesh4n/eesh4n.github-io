@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oakridge DECA | Home</title>
+    <title>Sponsors | Oakridge DECA</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -17,136 +17,76 @@
       </div>
       <ul class="nav-links">
           <li><a href="/">Home</a></li>
-          <li><a href="/executives.html">Executives</a></li>
-          <li><a href="/sponsors.html">Sponsors</a></li>
+          <li><a href="/executives">Executives</a></li>
+          <li><a href="/sponsors">Sponsors</a></li>
       </ul>
   </nav>
 
-  
-
 <!-- Hero Section -->
+ 
 <section class="hero">
     <img class="hero-img" src="decagroup.png" alt="DECA Group">
     <div class="hero-overlay">
-        <h1>Oakridge DECA</h1>
+        <h1>Sponsors</h1>
     </div>
 </section>
-<!-- About Section -->
-<section id="about" class="about-section">
-  
-    <div class="floating-shape shape1"></div>
-    <div class="floating-shape shape2"></div>
-    <div class="floating-shape shape3"></div>
-    <div class="floating-shape shape4"></div>
-    <div class="floating-shape shape5"></div>
-    <div class="floating-shape shape6"></div>
 
-  <div class="about-container">
-    <div class="about-image">
-      <img src="deca-group-pic.jpg" alt="Oakridge DECA Team">
+<section class="sponsors-section">
+    <h2 class="sponsors-title">Our Sponsors</h2>
+
+    <div class="two-sponsors">
+        <a href="https://insboutique.com/" target="_blank" class="sponsor-card">
+            <img src="logo.png" alt="Sponsor 1 Logo">
+        </a>
+
+        <a href="https://rev3k.com/" target="_blank" class="sponsor-card">
+            <img src="logo2.png" alt="Sponsor 2 Logo">
+        </a>
     </div>
-
-    <div class="about-content">
-      <h2>About Us</h2>
-      <h3>Inspiring Future Leaders</h3>
-      <p>
-        Oakridge DECA is a student-led chapter dedicated to developing
-        leadership, communication, and business skills through competition,
-        collaboration, and community involvement. 
-      </p>
-      <p>
-        We empower students to explore careers in business, marketing, finance,
-        and entrepreneurship while building confidence and lifelong skills.
-      </p>
-
-      <div class="about-highlights">
-        <div><i class="fa-solid fa-lightbulb"></i> Leadership</div>
-        <div><i class="fa-solid fa-handshake"></i> Collaboration</div>
-        <div><i class="fa-solid fa-briefcase"></i> Entrepreneurship</div>
-      </div>
-    </div>
-  </div>
 </section>
 
-<!-- Testimonials Section -->
-<section id="testimonials" class="testimonials-section">
-  <div class="testimonials-container">
-    <h2>What Our Members Say</h2>
-    <div class="testimonial-grid">
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          <em> "Being part of Oakridge DECA taught me how to lead, listen, and grow, all while having a lot of fun.” </em>
-        </p>
-        <div class="testimonial-author">
-          <img src="download.jpeg" alt="Member 1">
-          <div>
-            <h4>Connor L.</h4>
-            <span>Grade 12, Co-President</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          <em>"Oakridge DECA is a tight-knit community that you can always rely on."</em>
-        </p>
-        <div class="testimonial-author">
-          <img src="download.jpeg" alt="Member 2">
-          <div>
-            <h4>Ahnaf K.</h4>
-            <span>Grade 12, Executive</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="testimonial-card">
-        <p class="testimonial-text">
-          <em> "DECA created real, innovative life lessons and experiences I still hold close and remember, to this day!" </em>
-        </p>
-        <div class="testimonial-author">
-          <img src="download.jpeg">
-          <div>
-            <h4>Jacob L.</h4>
-            <span>Grade 10, Chapter Executive</span>
-          </div>
-        </div>
-      </div>
+<section class="sponsors-hero">
+    <div class="sponsors-intro">
+        <h1>Why Oakridge DECA?</h1>
+        <p>Support future leaders in business, innovation, and community engagement. By partnering with us, you help students compete at regional, provincial, and international levels, while showcasing your commitment to education and youth development.</p>
     </div>
-  </div>
 </section>
 
-<!-- Four Paths Section -->
-<section class="paths">
-  <h2 class="section-title">Choose Your <span>Path</span></h2>
-  <div class="path-grid">
-    <div class="path-card">
-      <i class="fas fa-bullhorn path-icon"></i>
-      <h3>Marketing</h3>
-      <p>Master the art of promotion, branding, and connecting with consumers.</p>
+<section class="sponsors-posters">
+    <div class="poster-card" onclick="openModal(this)">
+        <img src="spons2.jpg" alt="Sponsorship Tiers Poster" data-src="spons2.jpg">
+        <p>Who We Are & Why Support Us</p>
     </div>
-
-    <div class="path-card">
-      <i class="fas fa-briefcase path-icon"></i>
-      <h3>Business Administration</h3>
-      <p>Develop leadership, organizational, and management skills for the future.</p>
+    <div class="poster-card" onclick="openModal(this)">
+        <img src="spons1.png" alt="Who We Are Poster" data-src="spons1.png">
+        <p>Sponsorship Tiers & Benefits</p>
     </div>
-
-    <div class="path-card">
-      <i class="fas fa-hotel path-icon"></i>
-      <h3>Hospitality</h3>
-      <p>Learn event planning, customer service, and hospitality management.</p>
-    </div>
-
-    <div class="path-card">
-      <i class="fas fa-coins path-icon"></i>
-      <h3>Finance</h3>
-      <p>Gain knowledge in accounting, investment, and financial decision-making.</p>
-    </div>
-  </div>
 </section>
 
+<!-- Modal for Image Popup -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
 
+<section class="sponsors-impact">
+    <div class="impact-card">
+        <h2>50+</h2>
+        <p>Active DECA Members</p>
+    </div>
+    <div class="impact-card">
+        <h2>2+</h2>
+        <p>Competitions Per Year</p>
+    </div>
+    <div class="impact-card">
+        <h2>15+</h2>
+        <p>Provincial Qualifiers</p>
+    </div>
+</section>
 
+<section class="sponsors-cta">
+    <p><strong>Interested in partnering with us? Reach out today! </strong></p>
+</section>
 
   <!-- Footer -->
   <footer class="site-footer">
@@ -160,8 +100,8 @@
         <h4>Quick Links</h4>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/executives.html">Executives</a></li>
-          <li><a href="/sponsors.html">Sponsors</a></li>
+          <li><a href="/executives">Executives</a></li>
+          <li><a href="/sponsors">Sponsors</a></li>
         </ul>
       </div>
 
@@ -180,7 +120,6 @@
       <p>© <span id="year"></span> Oakridge DECA. All rights reserved.</p>
     </div>
   </footer>
-
   <script src="script.js"></script>
 
 </body>
