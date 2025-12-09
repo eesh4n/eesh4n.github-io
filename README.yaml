@@ -1,0 +1,81 @@
+title: "🌟 Oakridge DECA – Static Website"
+badges:
+  - "https://img.shields.io/badge/Hosted%20On-GitHub%20Pages-blue?style=for-the-badge"
+  - "https://img.shields.io/badge/Status-Live-success?style=for-the-badge"
+  - "https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"
+  - "https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"
+  - "https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge"
+
+description: >
+  This repository contains the fully static version of the Oakridge DECA website — originally built in Django 
+  and now converted into a clean, fast, and GitHub Pages-optimized static site. The conversion allows free hosting, 
+  instant loading, and a custom domain (oakridgedeca.ca) with zero backend requirements.
+
+live_website: "https://oakridgedeca.ca"
+
+project_structure: |
+  /
+  ├── index.html                 # Homepage
+  ├── executives/
+  │   └── index.html             # Executives page
+  ├── sponsors/
+  │   └── index.html             # Sponsors page
+  ├── style.css                  # Global Stylesheet
+  ├── script.js                  # Main JavaScript
+  ├── images/                    # Logos, hero images, profile photos
+  └── README.md
+
+tech_stack:
+  Front-End: "HTML5, CSS3, JavaScript"
+  Icons: "Font Awesome CDN"
+  Hosting: "GitHub Pages"
+  DNS: "Custom domain via GoDaddy"
+  Version_Control: "Git & GitHub"
+
+conversion_notes:
+  - "Replaced all Django template tags"
+  - "Flattened templates into standalone HTML pages"
+  - "Moved assets into /images"
+  - "Created /executives and /sponsors folders for clean URLs"
+  - "Restructured file paths for GitHub Pages"
+  - "Removed backend logic and Python dependencies"
+  - "Now the site is 100% frontend-only and loads instantly"
+
+deploying_to_github_pages:
+  steps:
+    - "Go to Settings → Pages"
+    - "Choose Source: Deploy from branch"
+    - "Branch: main"
+    - "Folder: / (root)"
+    - "Click Save"
+    - "GitHub automatically deploys the site within seconds"
+  custom_domain:
+    - "Add oakridgedeca.ca under the Custom domain field"
+    - "Make sure GoDaddy DNS has:"
+      - "4x GitHub A records"
+      - "Optional AAAA records"
+      - "GitHub-generated CNAME"
+
+features:
+  - "Mobile-responsive layout"
+  - "Fast static hosting"
+  - "Smooth page navigation"
+  - "Clean folder-based URLs (/executives, /sponsors)"
+  - "Hero banners with overlay text"
+  - "Clickable sponsor poster modal viewer"
+  - "Professional footer with social links"
+  - "Structured sections for executives and sponsors"
+
+planned_enhancements:
+  - "Add subtle animations"
+  - "Improve card hover effects"
+  - "Add events or announcements page"
+  - "Add form for sponsorship inquiries"
+  - "Add Google Analytics for traffic insights"
+
+maintainer:
+  team: "Oakridge DECA – Tech Team"
+  contact:
+    email: "oakridgedeca25@gmail.com"
+    instagram: "@oakridge_deca"
+    linkedin: "Oakridge DECA"
